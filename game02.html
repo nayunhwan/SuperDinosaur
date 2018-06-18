@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Game Prototype 02</title>
+    <meta charset="utf-8" />
+    <link href="game02.css" type="text/css" rel="stylesheet" />
+    <script src="libs/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+    <div id="gameArea">
+        <div class="gameScreen" id="start">
+            <img id="startScreen" />
+            <div id="startButton">Start Game</div>
+        </div>
+        <div class="gameScreen" id="mainGame">
+            <img id="playScreen" />
+            <div id="scoreMessage"></div>
+            <div id="timeMessage"></div>
+        </div>
+        <div class="gameScreen" id="end">
+            <img id="endScreen" />
+            <div id="endButton">
+                <div>Re Start Game</div>
+            </div>
+        </div>
+    </div>
+    <div id="display"></div>
+    <script src="game02.js"></script>
+</body>
+
+</html>

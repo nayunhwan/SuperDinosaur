@@ -1,0 +1,108 @@
+body {
+  background: grey;
+  margin: auto;
+  text-align: center;
+}
+
+#display {
+  color: white;
+  padding: 20px;
+  font-size: 3em;
+}
+
+#gameArea {
+  background: white;
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+  display: block;
+  width: 1366px;
+  height: 768px;
+  overflow: hidden;
+}
+
+.gameScreen {
+  position: absolute;
+}
+
+#scoreMessage {
+  position: absolute;
+  font-size: 400%;
+  width: 700px;
+  height: 150px;
+  left: 50px;
+  top: 60px;
+  z-index: 100;
+}
+
+#timeMessage {
+  position: absolute;
+  font-size: 400%;
+  width: 700px;
+  height: 150px;
+  left: 780px;
+  top: 60px;
+  z-index: 100;
+}
+
+#startButton {
+  position: absolute;
+  background: white;
+  width: 300px;
+  padding: 1rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  border: 3px solid black;
+  left: 550px;
+  top: 510px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#target {
+  position: absolute;
+  left: 500px;
+  top: 570px;
+}
+
+#enemy {
+  position: absolute;
+  left: 800px;
+  top: 500px;
+}
+
+.cloud {
+  position: absolute;
+}
+
+#endButton {
+  position: absolute;
+  text-align: center;
+  font-size: 2rem;
+  background: white;
+  width: 500px;
+  left: 430px;
+  top: 570px;
+  opacity: 0.5;
+  padding: 1rem;
+  cursor: pointer;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.character {
+  position: absolute;
+  z-index: 100;
+}
+
+.enemy {
+  position: absolute;
+}
+
+.land {
+  position: absolute;
+}
+
+.item {
+  position: absolute;
+}
